@@ -252,7 +252,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                  [
                   [InlineKeyboardButton(text="💎❰𝐒ᴏᴜʀᴄᴇ❱", url=f"https://t.me/KING_BOTz"), 
-                   InlineKeyboardButton(text="⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url=f"https://t.me/{SUPPORT_CHAT}")]
+                   InlineKeyboardButton(text="⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url=f"https://t.me/TAMIL_CHATBOX")]
                  ]
               ),
                 parse_mode=ParseMode.MARKDOWN,              
@@ -365,9 +365,9 @@ def tiana_callback_handler(update, context):
     query = update.callback_query
     if query.data == "tiana_":
         query.message.edit_text(
-            text="""𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪. 
+            text="""💞✨Wᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ✨💞 
 ────────────────────────
-*Sᴇʟᴇᴄᴛ  Aʟʟ  Cᴏᴍᴍᴀɴᴅs  Fᴏʀ  Fᴜʟʟ  Hᴇʟᴘ  Oʀ  Sᴇʟᴇᴄᴛ  Cᴀᴛᴀɢᴏʀʏ  Fᴏʀ  Mᴏʀᴇ  Hᴇʟᴘ  Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ  Oɴ  Sᴇʟᴇᴄᴛᴇᴅ  Fɪᴇʟᴅs*""",
+*💘Sᴇʟᴇᴄᴛ  Aʟʟ  Cᴏᴍᴍᴀɴᴅs  Fᴏʀ  Fᴜʟʟ  Hᴇʟᴘ  Oʀ  Sᴇʟᴇᴄᴛ  Cᴀᴛᴀɢᴏʀʏ  Fᴏʀ  Mᴏʀᴇ  Hᴇʟᴘ  Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ  Oɴ  Sᴇʟᴇᴄᴛᴇᴅ  Fɪᴇʟᴅs💘*""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -376,7 +376,7 @@ def tiana_callback_handler(update, context):
                      InlineKeyboardButton(text="🦋❰𝐀𝐋𝐋 𝐂ᴏᴍᴍᴀɴᴅs❱", callback_data="help_back"),
                     ],                           
                     [InlineKeyboardButton(text="😉❰𝐇ᴏᴡ 𝐓ᴏ 𝐔sᴇ 𝐌𝐞❱", callback_data="tiana_help"),
-                     InlineKeyboardButton(text="🎵❰𝐌ᴜsɪᴄ 𝐁ᴏᴛ❱", callback_data="tiana_music")],
+                     InlineKeyboardButton(text="🎵❰𝐌ᴜsɪᴄ Assɪsᴛᴀɴᴛ❱", url="https://t.me/RomANCE_AssIST")],
                     [InlineKeyboardButton(text="⬅️❰𝐁ᴀᴄᴋ❱", callback_data="tiana_back"),
                      InlineKeyboardButton(text="💋❰Fᴜɴ ᴛᴏᴏʟs❱", callback_data="tiana_tools")],
                 ]
@@ -399,13 +399,13 @@ def tiana_callback_handler(update, context):
         )
     elif query.data == "tiana_help":
         query.message.edit_text(
-            text=f"""*Nᴇᴡ  Tᴏ  {BOT_NAME}!  Hᴇʀᴇ  Is  Tʜᴇ  Qᴜɪᴄᴋ  Sᴛᴀʀᴛ  Gᴜɪᴅᴇ  Wʜɪᴄʜ  Wɪʟʟ  Hᴇʟᴘ  Yᴏᴜ  Tᴏ  Uɴᴅᴇʀsᴛᴀɴᴅ  Wʜᴀᴛ  Is  {BOT_NAME}  Aɴᴅ  Hᴏᴡ  Tᴏ  Usᴇ  Iᴛ.
+            text=f"""*💞Nᴇᴡ  Tᴏ  {BOT_NAME}!  Hᴇʀᴇ  Is  Tʜᴇ  Qᴜɪᴄᴋ  Sᴛᴀʀᴛ  Gᴜɪᴅᴇ  Wʜɪᴄʜ  Wɪʟʟ  Hᴇʟᴘ  Yᴏᴜ  Tᴏ  Uɴᴅᴇʀsᴛᴀɴᴅ  Wʜᴀᴛ  Is  {BOT_NAME}  Aɴᴅ  Hᴏᴡ  Tᴏ  Usᴇ  Iᴛ💞
 
-Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜʀ  Gʀᴏᴜᴘ. Bᴀsɪᴄ  Tᴏᴜʀ  Sᴛᴀʀᴛᴇᴅ  Tᴏ  Kɴᴏᴡ  Aʙᴏᴜᴛ  Hᴏᴡ  Tᴏ  Usᴇ  Mᴇ*""",
+💚Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜʀ  Gʀᴏᴜᴘ. Bᴀsɪᴄ  Tᴏᴜʀ  Sᴛᴀʀᴛᴇᴅ  Tᴏ  Kɴᴏᴡ  Aʙᴏᴜᴛ  Hᴏᴡ  Tᴏ  Usᴇ  Mᴇ💜*""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
               [[InlineKeyboardButton(text="🌝❰Sᴇᴛᴜᴘ ʜᴇʟᴘ❱", callback_data="tiana_vida")],
-               [InlineKeyboardButton(text="😘❰𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ❱", url="https://t.me/{BOT_USERNAME}?startgroup=true")],       
+               [InlineKeyboardButton(text="😘❰𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ❱", url="https://t.me/RomANCE_RoBOT?startgroup=true")],       
                 [InlineKeyboardButton(text="⬅️❰𝐁ᴀᴄᴋ❱", callback_data="tiana_"),
                  InlineKeyboardButton(text="➡️", callback_data="tiana_helpa")]
               ]
@@ -418,7 +418,7 @@ Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜ
 Bᴇғᴏʀᴇ  Wᴇ  Gᴏ,  I  Nᴇᴇᴅ  Aᴅᴍɪɴ  Pᴇʀᴍɪssɪᴏɴs  Iɴ  Tʜɪs  Cʜᴀᴛ  Tᴏ  Wᴏʀᴋ  Pʀᴏᴘᴇʀʟʏ.
 1). Cʟɪᴄᴋ  Mᴀɴᴀɢᴇ  Gʀᴏᴜᴘ.
 2). Gᴏ  Tᴏ  Aᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs  Aɴᴅ  Aᴅᴅ</b>  {BOT_USERNAME}  <b>As  Aᴅᴍɪɴ.
-3). Gɪᴠɪɴɢ  Fᴜʟʟ  Pᴇʀᴍɪssɪᴏɴs  Mᴀᴋᴇ  Tɪᴀɴᴀ  Fᴜʟʟʏ  Usᴇғᴜʟ</b>""",
+3). Gɪᴠɪɴɢ  Fᴜʟʟ  Pᴇʀᴍɪssɪᴏɴs  Mᴀᴋᴇ 『 𝐑ᴏᴍΛ𝐍𝐂Ξ 』 Fᴜʟʟʏ  Usᴇғᴜʟ</b>""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
               [[InlineKeyboardButton(text="⬅️", callback_data="tiana_help"),
@@ -428,9 +428,9 @@ Bᴇғᴏʀᴇ  Wᴇ  Gᴏ,  I  Nᴇᴇᴅ  Aᴅᴍɪɴ  Pᴇʀᴍɪssɪᴏɴs  
         )
     elif query.data == "tiana_helpb":
         query.message.edit_text(
-            text="""*Cᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴs,  Tʜɪꜱ  Bᴏᴛ  Nᴏᴡ  Rᴇᴀᴅʏ  Tᴏ  Mᴀɴᴀɢᴇ  Yᴏᴜʀ  Gʀᴏᴜᴘ
+            text="""*😍Cᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴs,  Tʜɪꜱ  Bᴏᴛ  Nᴏᴡ  Rᴇᴀᴅʏ  Tᴏ  Mᴀɴᴀɢᴇ  Yᴏᴜʀ  Gʀᴏᴜᴘ
 
-Hᴇʀᴇ  Aʀᴇ  Sᴏᴍᴇ  Essᴇɴᴛɪᴀʟᴛ  Tᴏ  Tʀʏ  Oɴ Tɪᴀɴᴀ.
+Hᴇʀᴇ  Aʀᴇ  Sᴏᴍᴇ  Essᴇɴᴛɪᴀʟᴛ  Tᴏ  Tʀʏ  Oɴ 『 𝐑ᴏᴍΛ𝐍𝐂Ξ 』✨😍
 
 ×  Aᴅᴍɪɴ  Tᴏᴏʟs
 ʙᴀsɪᴄ  ᴀᴅᴍɪɴ  ᴛᴏᴏʟs  ʜᴇʟᴘ  ʏᴏᴜ  ᴛᴏ  ᴘʀᴏᴛᴇᴄᴛ  ᴀɴᴅ  ᴘᴏᴡᴇʀᴜᴘ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ
@@ -523,7 +523,7 @@ Aɴᴅ  Aʟsᴏ  Iғ  Yᴏᴜ  Hᴀᴠᴇ  Aɴʏ  Sᴜɢɢᴇssɪᴏɴs  Aʙᴏ�
 
 Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
 
-× Bʏ  Usɪɴɢ  Tʜɪꜱ  Bᴏᴛ  Yᴏᴜ  Aʀᴇ  Aɢʀᴇᴇᴅ  Tᴏ  Oᴜʀ  Tᴇʀᴍs  &  Cᴏɴᴅɪᴛɪᴏɴs*""",
+💞 Bʏ  Usɪɴɢ  Tʜɪꜱ  Bᴏᴛ  Yᴏᴜ  Aʀᴇ  Aɢʀᴇᴇᴅ  Tᴏ  Oᴜʀ  Tᴇʀᴍs  &  Cᴏɴᴅɪᴛɪᴏɴs*""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -540,7 +540,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             f"\n\n2.) then promote me as admin and give all permissions except anonymous admin."
             f"\n\n3.) add @{ASS_USERNAME} to your group."
             f"\n\n4.) turn on the video chat first before start to play music."
-            f"\n\n*✗ Lets Enjoy The Tiana Music And Join Support Group @PrincexSupport*"
+            f"\n\n*✗ Lets Enjoy The Tiana Music And Join Support Group @TAMIL_CHATBOX*"
             f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ Bʏ:* @{UPDATE_CHANNEL}",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -719,9 +719,9 @@ Support
         )
     elif query.data == "tiana_tools":
         query.message.edit_text(
-            text="""*Here is the help for the tools module:
-We promise to keep you latest up-date with the latest technology on telegram. 
-we updradge TianaBot everyday to simplifie use of telegram and give a better exprince to users.
+            text="""*💞Here is the help for the tools module😍
+💛We promise to keep you latest up-date with the latest technology on telegram💖 
+💜we updradge 『 𝐑ᴏᴍΛ𝐍𝐂Ξ 』✨😍 everyday to simplifie use of telegram and give a better exprince to users😘
 
 Click on below buttons and check amazing tools for users.*""",
             parse_mode=ParseMode.MARKDOWN,
@@ -854,7 +854,7 @@ def tiana_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "about_":
         query.message.edit_text(
-            text="""𝘾𝙇𝙄𝘾𝙆 𝘽𝙀𝙇𝙊𝙒 𝘽𝙐𝙏𝙏𝙊𝙉 𝙁𝙊𝙍 𝙆𝙉𝙊𝙒 𝙈𝙊𝙍𝙀 𝘼𝘽𝙊𝙐𝙏 𝙈𝙀""",
+            text="""😍✨𝘾𝙇𝙄𝘾𝙆 𝘽𝙀𝙇𝙊𝙒 𝘽𝙐𝙏𝙏𝙊𝙉 𝙁𝙊𝙍 𝙆𝙉𝙊𝙒 𝙈𝙊𝙍𝙀 𝘼𝘽𝙊𝙐𝙏 𝙈𝙀✨😍""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -864,11 +864,11 @@ def tiana_about_callback(update: Update, context: CallbackContext):
                      InlineKeyboardButton(text="💎❰𝐒ᴏᴜʀᴄᴇ❱", url=f"https://t.me/KING_BOTz"),
                  ],
                  [  
-                    InlineKeyboardButton(text="⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", callback_data="TAMIL_CHATBOX"),
+                    InlineKeyboardButton(text="⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url=f"http://t.me/TAMIL_CHATBOX"),
                     InlineKeyboardButton(text="👑❰𝐎ᴡɴᴇʀ❱", url=f"t.me/{OWNER_USERNAME}"),
                  ],
                  [
-                     InlineKeyboardButton(text="😁❰Tᴇʀᴍs ᴀɴᴅ Cᴏɴᴅɪᴛɪᴏɴs❱", callback_data="tiana_term"),
+                     InlineKeyboardButton(text="😁❰Tᴇʀᴍs ᴀɴᴅ Cᴏɴᴅɪᴛɪᴏɴs❱", url="https://telegra.ph/file/4b461c419a336d531ad64.mp4"),
                  ],
                  [
                      InlineKeyboardButton(text="⬅️❰𝐁ᴀᴄᴋ❱", callback_data="about_back"),
