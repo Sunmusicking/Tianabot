@@ -11,7 +11,7 @@
          "tianabot",
          "telegram"
       ],   
-   "repository": "https://github.com/Prince-Botz/TianaBot",
+   "repository": "https://github.com/Sunmusicking/Tianabot.git",
    "addons": [
       {
          "options": {
@@ -164,7 +164,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/PrincexDonateBot"
+         "value": "https://t.me/iMzaynKING"
       }   
    }
 }
