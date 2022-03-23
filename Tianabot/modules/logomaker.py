@@ -256,7 +256,7 @@ async def lego(event):
  if event.sender_id != OWNER_ID and not quew:
   await event.reply('`Please give me the text for the logo!`\n`Example /logo <pantek>`')
   return
- pesan = await event.reply('`Creating your logo...`')
+ pesan = await event.reply('`😍✨Creating your logo baby...`')
  try:
     text = event.pattern_match.group(1)
     randc = random.choice(LOGO_LINKS)
@@ -278,7 +278,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname = "Tiana.png"
     img.save(fname, "png")
-    await telethn.send_file(event.chat_id, file=fname, caption = f"Made by [Tiana](@Tiana_prince_Bot)")         
+    await telethn.send_file(event.chat_id, file=fname, caption = f"Mᴀᴅᴇ Bʏ👑 [𝗶𝐌𝘇𝗮𝘆𝗻𝐊𝐈𝐍𝐆](@iMzaynKING)")         
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)
