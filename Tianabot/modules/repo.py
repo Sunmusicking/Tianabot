@@ -11,22 +11,22 @@ from Tianabot import pbot, START_IMG, SUPPORT_CHAT
 async def repo(_, message):
     await message.reply_photo(
         photo=START_IMG,
-        caption=f"""✨ **Hey I'm Tiana Robot** 
+        caption=f"""✨😍 **Hey I'm 『 𝐑ᴏᴍΛ𝐍𝐂Ξ 』✨😍** 
 
-**Owner : [Prince](https://t.me/PrincexDevilDad)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
+**👑Owner : [iMzaynKING](https://t.me/iMzaynKING)**
+**⚡Python Version :** `{y()}`
+**⚡Library Version :** `{o}`
+**⚡Telethon Version :** `{s}`
+**⚡Pyrogram Version :** `{z}`
 
-**Click on Button Bellow For More**
+**💞Click on Button Bellow For More💞**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="📄 Source", callback_data="tiana_source"), 
+                    InlineKeyboardButton(text="💎❰𝐒ᴏᴜʀᴄᴇ❱", url=f"https://t.me/KING_BOTz"), 
                     InlineKeyboardButton(
-                        "🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")
+                        "⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url=f"https://t.me/TAMIL_CHATBOX")
                 ]
             ]
         )
